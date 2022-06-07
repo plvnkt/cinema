@@ -1,0 +1,10 @@
+body{
+    background: var(--body-color);
+    color: var(--text-color);
+}
+:root{
+    --main-color: black;
+    --hover-color:red;
+    --body-color:darkkhaki;
+    --text-color:white;
+}
