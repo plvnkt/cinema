@@ -1,10 +1,132 @@
-body{
-    background: var(--body-color);
-    color: var(--text-color);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
 }
-:root{
-    --main-color: black;
-    --hover-color:red;
-    --body-color:darkkhaki;
-    --text-color:white;
+
+body{
+    background-color: black;
+    min-height: 100vh;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #432f2f; 
+
+}
+.logo{
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: #0088a9
+}
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: darkgoldenrod;
+}
+.home-content{
+    margin-top: 30px;
+}
+.home-screen{
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover !important;
+  background-position: center !important;
+  min-height: 60rem;
+}
+.screen-button{
+    position:absolute;
+    width: 200px;
+    height: 90px;
+    margin: 500px 0;
+    background-color:saddlebrown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: -80%;
+    margin-top: 60%;
+    transition: all 0.3s ease 0s;
+}
+.played-today{
+    text-align: center;
+    font-size: 12px;
+    color: #edf0f1;
+}
+
+
+
+.footer{
+    position:absolute;
+    width: 100%;
+    margin-bottom: 0;
+    right: 0;
+    z-index: 1000;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #432f2f;
+
+}
+.social-media{
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: center;
+}
+.social-media a{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+.authors{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    border-top: 0.1rem solid #edf0f1;
+    font-size: 12px;
+    color: #edf0f1;
 }
