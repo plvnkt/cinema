@@ -40,7 +40,9 @@
             }
         }
         ?>
-        <h3>Masz już konto? <a href="login.php">Zaloguj się!</a></h3>
+        <h3>Masz już konto?</h3>
+        <a class="login-signup" href="login.php">Zaloguj się!</a>
+        
     </section>
 
     

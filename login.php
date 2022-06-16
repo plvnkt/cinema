@@ -22,7 +22,8 @@
             }  
         }
         ?>
-        <h3>Nie masz konta?<a href="signup.php">Zarejestruj się!</a></h3>
+        <h3>Nie masz konta?</h3>
+        <a class="login-signup" href="signup.php">Zarejestruj się!</a>
     </section>
 
 

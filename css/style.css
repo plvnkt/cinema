@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;800&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -8,15 +8,23 @@
     scroll-padding-top: 2rem;
 }
 body{
-    background-color: black;
+    background: linear-gradient(110deg, black 60%, #060606 60%);
+}
+
+nav img{
+    margin: 0 100px;
+    height: 140px;
 }
 a{
     text-decoration: none;
 }
+
 ul{
+    text-align: center;
     list-style: none;
     font-size: 25px;
     font-style:oblique;
+    
 }
 .navbar{
     position: absolute;
@@ -27,16 +35,19 @@ ul{
     justify-content: space-between;
     padding: 20px;
     color: whitesmoke;
+    text-align: center;
+
+
 }
 .nav-links{
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 .mobile-menu{
     margin-top: 0px;
 }
 .nav-links li{
-    margin: 0 30px;
+    margin: 0 20px;
 }
 header{
     width: 100vw;
@@ -66,19 +77,21 @@ header{
     border-radius: 5px;
 }
 .login{
-    padding: 15px 25px;
-    background: olive;
-    border-radius: 30px;
+    padding: 10px 20px;
+    background: #606c38;
+    border-radius: 15px;
     color: whitesmoke;
-    font-size: 19;
+    font-size: 25px;
+    cursor: pointer;
+    width: 140px;
 }
 .login:hover{
     background: darkkhaki;
 }
 .buy{
-    padding: 25px 35px;
+    padding: 15px 35px;
     background: olive;
-    border-radius: 30px;
+    border-radius: 15px;
     color: whitesmoke;
     font-size: 20;
 }
@@ -174,6 +187,10 @@ section{
     .nav-links li{
         margin: 30px auto;
     }
+    .row{
+        display: grid;
+        width: 100%;
+    }
 }
 
 /* Footer */
@@ -211,3 +228,110 @@ section{
     color: #edf0f1;
 }
 
+.about{
+    width: 75%;
+    margin: 250px auto;
+}
+.about-title{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;    
+}
+.about-col{
+    max-width: 550px;
+}
+.about-img{
+    max-width:100%;
+    border-radius: 3%;
+    margin-top: 70px;
+}
+.about p{
+    font-size: 17px;
+}
+.about h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.about-row .about-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+blockquote {
+    quotes: "“" "”" "‘" "’";
+    margin-top: 40px;
+    font-size: 30px;
+    align-items: center;
+    font-style:inherit;
+}
+.about-col-solo{
+    width: 50%;
+    align-items: center;
+    margin: auto auto;
+}
+.about-col-duo{
+    width: 50%;
+    margin-top: 20px;
+}
+.mapouter{
+    margin-top: 60px;
+}
+.contact-info p{
+    font-size: 20px;
+}
+.contact-info h2{
+    font-size: 35px;
+    margin-top: 40px;
+}
+.login-form, .signup-form{
+   width: 300px;
+   padding: 40px;
+   position: flex;
+   margin-top: 250px;
+   top: 50%;
+   left: 50%;
+   color: whitesmoke;
+   text-align: center; 
+   border: 2px solid #3498db;
+   border-radius: 24px;
+}
+.login-form input[type="text"], .login-form input[type="password"],.signup-form input[type="text"], .signup-form input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    border-radius: 24px;
+    color: whitesmoke;
+}
+.login-form button, .signup-form button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login-form .login-signup, .signup-form .login-signup{
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: underline;
+}

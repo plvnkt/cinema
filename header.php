@@ -17,15 +17,16 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1 class="logo">Pod cummulusem</h1>
+        <a href="home.php"><img class="logo" src="image/logo-ofc.png" alt=""></a>
         <ul class="nav-links">
             <li><a href="home.php#repertuar">Repertuar</a></li>
             <li><a href="about.php">O nas</a></li>
             <li><a href="contact.php">Kontakt</a></li>
             <?php
                 if (isset($_SESSION["userusername"])) {
-                   echo"<p> ". $_SESSION["userusername"] . "</p>";
-                   echo"<li class='login'><a href='includes/logout.inc.php'>Wyloguj</a></li>";
+                   //echo"<p class='current-username'> ". $_SESSION["userusername"] . "</p>";
+                   echo"<div class='login'><a href='includes/logout.inc.php'>Wyloguj</a></div>";
+                   
                 }
                 else {
                    echo"<li class='login'><a href='login.php'>Zaloguj</a></li>";
