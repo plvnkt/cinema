@@ -16,10 +16,10 @@
     <nav class="navbar">
         <h1 class="logo">Pod cummulusem</h1>
         <ul class="nav-links">
-            <li><a href="films.php">Repertuar</a></li>
+            <li><a href="#repertuar">Repertuar</a></li>
             <li><a href="about.php">O nas</a></li>
             <li><a href="contact.php">Kontakt</a></li>
-            <li class="buy"><a href="#">Zaloguj</a></li>
+            <li class="login"><a href="#">Zaloguj</a></li>
         </ul>
         <img src="./image/menu-btn.png" alt="" class="menu-btn">
     </nav>
@@ -27,7 +27,7 @@
     <!-- Header -->
     <header>
         <div class="header-content">
-            <h1>BILETY NA "BUZZ ASTRAL" JUŻ W SPRZEDAŻY</h1>
+            <h1>BILETY NA "BUZZ ASTRAL" JUŻ W SPRZEDAŻY</h1><br>
             <a href="#" class="buy">Kup bilet</a>
         </div>
     </header>
@@ -50,51 +50,51 @@
             <div class="col">
                 <img src="./image/buzz-mini.jpg">
                 <h4>Buzz Astral</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/elvis-mini.jpg">
                 <h4>Elvis</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/jurassic-mini.jpg">
                 <h4>JURASSIC WORLD: DOMINION</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <img src="./image/czarny-telefon-mini.png">
                 <h4>CZARNY TELEFON</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/topgun-mini.jpg">
                 <h4>TOP GUN: MAVERICK</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/jezyk-mini.jpg">
                 <h4>JEŻYK I PRZYJACIELE</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <img src="./image/doktor-mini.jpg">
                 <h4>DOKTOR STRANGE W<br> MULTIWERSUM OBŁĘDU</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/sonic-mini.jpg">
                 <h4>SONIC 2. SZYBKI JAK BŁYSKAWICA</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/zywy-mini.jpg">
                 <h4>ŻYWY</h4>
-                <a href="#" class="buy">Kup bilet</a>
+                <div class="button"><a href="#"> Kup bilet </a></div>
             </div>
         </div>
     </section>
