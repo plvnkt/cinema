@@ -204,12 +204,12 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background: #432f2f;
+    background: transparent;
 
 }
 .social-media{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     color: #edf0f1;
     text-decoration: none;
     text-align: center;
