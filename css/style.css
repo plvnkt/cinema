@@ -66,18 +66,24 @@ header{
     border-radius: 5px;
 }
 .login{
-    padding: 25px 35px;
-    background: darkkhaki;
+    padding: 15px 25px;
+    background: olive;
     border-radius: 30px;
     color: whitesmoke;
     font-size: 19;
 }
+.login:hover{
+    background: darkkhaki;
+}
 .buy{
     padding: 25px 35px;
-    background: darkkhaki;
+    background: olive;
     border-radius: 30px;
     color: whitesmoke;
     font-size: 20;
+}
+.buy:hover{
+    background: darkkhaki;
 }
 .menu-btn{
     position: absolute;
