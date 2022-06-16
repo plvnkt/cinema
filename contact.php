@@ -30,6 +30,8 @@
         })
     </script>
 
+    
+
     <section class="footer">
        <div class="social-media">
             <h3>Obserwuj nas na:</h3>

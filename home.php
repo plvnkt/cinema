@@ -12,17 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar">
-        <h1 class="logo">Pod cummulusem</h1>
-        <ul class="nav-links">
-            <li><a href="#repertuar">Repertuar</a></li>
-            <li><a href="about.php">O nas</a></li>
-            <li><a href="contact.php">Kontakt</a></li>
-            <li class="login"><a href="#">Zaloguj</a></li>
-        </ul>
-        <img src="./image/menu-btn.png" alt="" class="menu-btn">
-    </nav>
+    <?php
+        include_once 'header.php';
+    ?>
 
     <!-- Header -->
     <header>
@@ -41,7 +33,7 @@
     </script>
 
     <!-- Repertuar -->
-    <section class="repertuar">
+    <section class="repertuar" id="repertuar">
         <div class="title">
             <h1>Repertuar</h1>
             <div class="line"></div>
@@ -100,15 +92,9 @@
     </section>
     
     <!-- Footer  -->
-   <section class="footer">
-       <div class="social-media">
-            <h3>Obserwuj nas na:</h3>
-            <a href="https://facebook.com" class="fa fa-facebook"> Facebook</a>
-            <a href="https://twitter.com" class="fa fa-twitter"> Twitter</a>
-            <a href="https://instagram.com" class="fa fa-instagram"> Instagram</a>
-       </div>
-       <div class="authors">Stworzone przez K53 - temat 16</div>
-   </section>
+    <?php
+        include_once 'footer.php';
+    ?>
    <script src="js/script.js"></script>
 </body>
 </html>
