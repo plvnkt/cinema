@@ -7,96 +7,143 @@
     box-sizing: border-box;
     scroll-padding-top: 2rem;
 }
-
 body{
     background-color: black;
-    min-height: 100vh;
 }
-
-li, a, button{
-    font-weight: 500;
-    font-size: 18px;
-    color: #edf0f1;
+a{
     text-decoration: none;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
-    background: #432f2f; 
-
-}
-.logo{
-    cursor: pointer;
-}
-
-.navbar{
+ul{
     list-style: none;
+    font-size: 25px;
+    font-style:oblique;
 }
-.navbar li{
-    display: inline-block;
-    padding: 0px 20px;
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
 }
-.navbar li a{
-    transition: all 0.3s ease 0s;
+.nav-links{
+    display: flex;
+    align-items: center;
 }
-.navbar li a:hover{
-    color: #0088a9
+.mobile-menu{
+    margin-top: 0px;
 }
-button{
-    padding: 9px 25px;
-    background-color: goldenrod;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.nav-links li{
+    margin: 0 30px;
 }
-button:hover{
-    background-color: darkgoldenrod;
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../image/buzzastral1.jpg");
+    -webkit-background-size: cover;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content:baseline;
+    
 }
-.home-content{
-    margin-top: 30px;
-}
-.home-screen{
-  text-align: center;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover !important;
-  background-position: center !important;
-  min-height: 60rem;
-}
-.screen-button{
-    position:absolute;
-    width: 200px;
-    height: 90px;
-    margin: 500px 0;
-    background-color:saddlebrown;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-weight: bold;
-    margin-left: -80%;
-    margin-top: 60%;
-    transition: all 0.3s ease 0s;
-}
-.played-today{
+.header-content{
+    margin-left: 40px;
+    margin-bottom: 100px;
     text-align: center;
-    font-size: 12px;
-    color: #edf0f1;
+    color: whitesmoke;
+    font-size: 25px;
+    font-style:oblique;
+    
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: blanchedalmond;
+    border-radius: 5px;
+}
+.buy{
+    padding: 25px 35px;
+    background: darkkhaki;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: medium;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* Repertuar */
+section{
+    width: 65%;
+    margin: 80px auto;
+}
+.title{
+    
+    font-size: 4vmin;
+    color: whitesmoke;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.col img{
+    opacity: 1;
+}
+.col img:hover{
+    opacity: 0.3;
+}
+
+/* Mobile */
+@media only screen and (max-width:850px) {
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: darkcyan;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
 }
 
 
 
+/* Footer */
 .footer{
     position:absolute;
     width: 100%;
