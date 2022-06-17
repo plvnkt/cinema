@@ -27,7 +27,7 @@
             <div class="col">
                 <img src="./image/elvis-mini.jpg">
                 <h4>Elvis</h4>
-                <div class="button"><a href="#"> Kup bilet </a></div>
+                <div class="button"><a href="elvis.php"> Kup bilet </a></div>
             </div>
             <div class="col">
                 <img src="./image/jurassic-mini.jpg">

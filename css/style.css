@@ -335,3 +335,15 @@ blockquote {
     font-style: italic;
     text-decoration: underline;
 }
+.elvis{
+   margin-top: 300px;
+}
+.elvis img{
+    border-radius: 24px;
+}
+.elvis .details{
+    background-color: #3498db;
+}
+ul.details li{
+    display: inline-block;
+}
