@@ -8,7 +8,7 @@
     scroll-padding-top: 2rem;
 }
 body{
-    background: linear-gradient(110deg, black 60%, #060606 60%);
+    background: linear-gradient(110deg, black 60%, #0D0D0D 60%);
 }
 
 nav img{
@@ -335,15 +335,72 @@ blockquote {
     font-style: italic;
     text-decoration: underline;
 }
-.elvis{
-   margin-top: 300px;
+.films-page{
+    width: 75%;
 }
-.elvis img{
+.films-page img{
     border-radius: 24px;
+    margin-top: 150px;
 }
-.elvis .details{
-    background-color: #3498db;
+.films-page row{
+    list-style: none;
 }
-ul.details li{
+.films-col{
+    margin-top: 150px;
+    max-width: 550px;
+}
+.details li{
     display: inline-block;
+    font-size: 15px;
+    border-left: 1px solid;
+    padding-left: 0.3em;
+    margin-bottom: 80px;
+    
+}
+.details .first{
+    border-left: none;
+}
+
+.films-col h1{
+    font-size: 50px;
+    text-align: center;
+}
+.films-col p{
+    font-size: 20px;
+    
+}
+.films-col h2{
+    margin-right: 313px;
+}
+.films-col .days{
+    font-size: 20px;
+    text-align: left;
+}
+.hours{
+    border: 0;
+    background: none;
+    display:inline-block;
+    margin: 5px 5px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 90px;
+    border-radius: 24px;
+    color: whitesmoke;
+}
+.films-col .reservation{
+    border: 0;
+    background: none;
+    display:inline-block;
+    margin: 5px 5px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 390px;
+    border-radius: 24px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+.films-col .reservation:hover{
+    border: 2px solid yellow;
 }
