@@ -17,7 +17,7 @@
                         <li>Od lat: 15</li>
                     </ul>
                 </div>
-                <p class="description">Nieśmiały, ale sprytny 13 – letni Finney Shaw zostaje uprowadzony przez sadystycznego zabójcę i uwięziony w dźwiękoszczelnej piwnicy, gdzie krzyki na nic się nie zdadzą. Kiedy odłączony od kabla telefon powieszony na ścianie piwnicy zaczyna dzwonić, Finney uświadamia sobie, że ​​słyszy głosy poprzednich ofiar mordercy. Chcą one zrobić wszystko, żeby chłopiec nie podzielił ich losu.</p>
+                <a class="reservation" href="reservation.php"> Rezerwuj miejsce!</a>
             </div>
         </div>
         <div class="row">

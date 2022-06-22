@@ -12,7 +12,7 @@
     <!-- do ustalenia nazwa -->
     <title>Kino Flex</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="image/icon.png">
+    <link rel="shortcut icon" href="./image/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -24,9 +24,8 @@
             <li><a href="contact.php">Kontakt</a></li>
             <?php
                 if (isset($_SESSION["userusername"])) {
-                   //echo"<p class='current-username'> ". $_SESSION["userusername"] . "</p>";
+                  // echo"<div class='current-username'> ". $_SESSION["userusername"] . "</div>";
                    echo"<div class='login'><a href='includes/logout.inc.php'>Wyloguj</a></div>";
-                   
                 }
                 else {
                    echo"<li class='login'><a href='login.php'>Zaloguj</a></li>";

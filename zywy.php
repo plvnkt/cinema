@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="films-col">
-                <div class="reservation"><a href="reservation.php"> Rezerwuj miejsce!</a></div>
+            <a class="reservation" href="reservation.php"> Rezerwuj miejsce!</a>
             </div>
             <div class="films-col">
                 <h2>Najbliższe seanse:</h2>

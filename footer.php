@@ -7,6 +7,6 @@
        </div>
        <div class="authors">Stworzone przez K53 - temat 16</div>
     </section>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
