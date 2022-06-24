@@ -3,6 +3,7 @@
         include_once 'header.php';
     ?>
     
+    <!-- zawartość strony O nas  -->
     <section class="about">
         <div class="title">
             <h2>O nas</h2>

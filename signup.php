@@ -2,7 +2,7 @@
     <?php
         include_once 'header.php';
     ?>
-    
+    <!-- tutaj jest forma do rejestracji -->
     <section class="signup-form">
         <h2>Zarejestruj się</h2>
         <div class="signup-form-form">   <!-- css do zrobienia -->
@@ -16,6 +16,7 @@
             </form>
         </div>
         <?php
+        //obsługa błędów
         if (isset($_GET["error"])) {
             if ($_GET["error"] == "emptyinput") {
                 echo "<p>Wypełnij wszystkie pola!</p>";
@@ -44,9 +45,6 @@
         <a class="login-signup" href="login.php">Zaloguj się!</a>
         
     </section>
-
-    
-
 
     <!-- footer -->
     <?php

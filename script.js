@@ -9,7 +9,7 @@ populateUI();
 
 let ticketPrice = +price;
 
-// Save selected movie index and price
+// zapisywanie wybranych filmów i ceny
 function setMovieData(movieIndex, moviePrice) {
   localStorage.setItem("selectedMovieIndex", movieIndex);
   localStorage.setItem("selectedMoviePrice", price);
@@ -32,7 +32,7 @@ function updateSelectedCount() {
 }
 
 
-// Get data from localstorage and populate UI
+// pobranie danych z populateUI oraz localstorage
 function populateUI() {
   const selectedSeats = JSON.parse(localStorage.getItem("selectedSeats"));
 
@@ -53,26 +53,26 @@ function populateUI() {
   }
 
 console.log(populateUI())
-// Movie select event
+// Movie select 
   movieSelect.addEventListener("change", (e) => {
   ticketPrice = +e.target.value;
   setMovieData(e.target.selectedIndex, e.target.value);
   updateSelectedCount();
 });
 
-// Seat click event
+// co dzieje się po nacisnieciu na wolne miejsce
 container.addEventListener("click", (e) => {
   if (
     e.target.classList.contains("seat") &&
     !e.target.classList.contains("sold")
   ) {
     e.target.classList.toggle("selected");
-
+    
     updateSelectedCount();
   }
 });
 
-// Initial count and total set
+
 updateSelectedCount();
 
 

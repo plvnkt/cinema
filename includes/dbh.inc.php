@@ -1,3 +1,4 @@
+<!-- plik łączacy się do bazy danych -->
 <?php
 
 $serverName ="localhost";

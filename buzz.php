@@ -2,11 +2,11 @@
 <?php
         include_once 'header.php';
 ?>
+<!-- zawartość strony z filmem: opis, zdjęcie, godziny senasów oraz przycisk do przejścia do rezerwacji miejsc -->
 <section class="films-page">
         <div class="row">
             <div class="films-col">
                 <img src="./image/buzz-mini.jpg">
-                
             </div>
             <div class="films-col">
                 <h1>Buzz Astral</h1>

@@ -1,3 +1,4 @@
+<!-- plik wylogowujący użytkownika -->
 <?php
 
 session_start();

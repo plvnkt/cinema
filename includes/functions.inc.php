@@ -1,3 +1,4 @@
+<!-- plik z funkcjami służącymi do logowania, nazwa fukncji zdradza ich działanie -->
 <?php
 
 function emptyInputSignup($name, $email, $username, $pwd, $pwdrepeat){

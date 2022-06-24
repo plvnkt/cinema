@@ -1,3 +1,4 @@
+<!-- plik odpowiadjący za rejestracje nowych użytkowników  -->
 <?php
 
 if (isset($_POST["submit"])) {
@@ -11,6 +12,7 @@ if (isset($_POST["submit"])) {
     require_once 'dbh.inc.php';
     require_once 'functions.inc.php';
 
+    // obsługa błędów
     if (emptyInputSignup($name, $email, $username, $pwd, $pwdrepeat) !== false) {
         header("location: ../signup.php?error=emptyinput");
         exit();
@@ -32,6 +34,7 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
+    //funkcja tworzenia konta w bazie 
     createUser($conn, $name, $email, $username, $pwd);
 }
 else {
